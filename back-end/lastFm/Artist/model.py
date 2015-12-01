@@ -12,7 +12,7 @@ class Artist:
         self.name = artist_name
         self.tag = dict()
         self.tag_normalized = dict()
-
+        
     def __repr__(self):
         return 'Artist: %s %s Tags: %s>' % (str(self.id), self.name, self.tag)
 
